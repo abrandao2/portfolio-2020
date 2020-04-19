@@ -7,6 +7,10 @@ visitsRouter.get('/', async (request, response) => {
   response.json(visits.map((visit) => visit.toJSON()));
 });
 
+visitsRouter.get('/data', async (request, response) => {
+  response.json(request.ip);
+});
+
 visitsRouter.put('/:id', async (request, response) => {
   const body = request.body;
 
