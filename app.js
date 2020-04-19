@@ -17,6 +17,8 @@ mongoose.set('useCreateIndex', true);
 // Create Express app
 const app = express();
 
+app.set('trust proxy', true) 
+
 // Connect to MongoDB database
 mongoose
   .connect(config.MONGODB_PORTFOLIO, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -31,9 +33,6 @@ app.use(express.static('build'));
 
 // Use Body Parser
 app.use(bodyParser.json());
-
-// Middleware for getting visitor data
-//app.use('/', getVisitorData);
 
 // Routes to Controllers
 app.use('/api/todos', todosRouter);
