@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09689226f4216baf15c3a0d874972d3b",
+    "revision": "99011b4dc2826e505ddec1b4f64f5e42",
     "url": "/index.html"
   },
   {
-    "revision": "20799e828e8a8259fe67",
-    "url": "/static/css/main.f53cb5f7.chunk.css"
+    "revision": "1c4b66a0e138c5b7e020",
+    "url": "/static/css/main.25c1afff.chunk.css"
   },
   {
     "revision": "e9553aa00ea720a47a1c",
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ece4d082.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20799e828e8a8259fe67",
-    "url": "/static/js/main.92734ed5.chunk.js"
+    "revision": "1c4b66a0e138c5b7e020",
+    "url": "/static/js/main.435d0be2.chunk.js"
   },
   {
     "revision": "ae4ec2866aff62a2a48d",
     "url": "/static/js/runtime-main.e0804590.js"
   },
   {
-    "revision": "5a7398c73d0171566d2e212afeae1561",
-    "url": "/static/media/LibreBarcode39-Regular.5a7398c7.ttf"
+    "revision": "1d727a3f25ba50339706540ab251bac1",
+    "url": "/static/media/Cantarell-Bold.1d727a3f.ttf"
   },
   {
-    "revision": "c525be442d6c7b5cc3532407ebe542db",
-    "url": "/static/media/MavenPro-Regular.c525be44.ttf"
+    "revision": "5a7398c73d0171566d2e212afeae1561",
+    "url": "/static/media/LibreBarcode39-Regular.5a7398c7.ttf"
   },
   {
     "revision": "52ee8b598488b1ffbaa93e50cbd6a2f4",
