@@ -33,5 +33,6 @@ app.use(bodyParser.json());
 app.use('/api/todos', todosRouter);
 app.use('/api/articles', articlesRouter);
 app.use('/api/visits', visitsRouter);
+app.use('/*', express.static(__dirname + '/build/index.html'));
 
 module.exports = app;
