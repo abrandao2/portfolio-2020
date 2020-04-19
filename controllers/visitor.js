@@ -7,7 +7,13 @@ visitorRouter.post('/', async (request, response) => {
     ip: request.body.ip.toString(),
   });
 
-  await visitor.save();
+  try {
+    await visitor.save();
+
+    response.status(204).end();
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 module.exports = visitorRouter;
