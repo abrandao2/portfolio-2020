@@ -7,6 +7,10 @@ visitorRouter.post('/', async (request, response) => {
     ip: request.body.ip.toString(),
   });
 
+  if (visitor.ip === '127.0.0.1') {
+    return response.status(204).end();
+  }
+
   try {
     await visitor.save();
 
