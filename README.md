@@ -1,8 +1,8 @@
 # Portfolio - André Silva
 
-### I'm a 32 years old Brazilian guy, currently living in Saint Petersburg, Russia. I'm looking for my first job as a Full-Stack Web Developer.
+### I'm a 33 years old Brazilian guy, currently living in Saint Petersburg, Russia. I work as a full-time Front-end React/Angular developer.
 
-This is the current version (as of April 2020) of my Portfolio. It's made using a variety of technologies, including React,
+This is the old (and current) version of my portfolio. It's not being maintained or updated anymore. It's made using a variety of technologies, including React,
 Express, MongoDB Atlas and Mongoose.
 
-I'm planning on converting the current JavaScript files into TypeScript, and on adding new apps to it in the days and weeks to come, as I learn new things.
+I'm building a new portfolio to replace this one.
